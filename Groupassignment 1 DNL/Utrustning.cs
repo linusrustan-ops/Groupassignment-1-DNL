@@ -6,10 +6,10 @@ namespace Groupassignment_1_DNL
 {
     public class Utrustning
     {
-        bool Arutlanad { get; set; }
-        int Id { get; set; }
+      public bool Arutlanad { get; set; }
+      public int Id { get; set; }
 
-        string Enhetsnamn { get; set; }
+      public string Enhetsnamn { get; set; }
 
 
 
