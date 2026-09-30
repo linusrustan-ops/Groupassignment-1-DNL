@@ -23,7 +23,18 @@ namespace Groupassignment_1_DNL
         {
             while (true)
             {
-
+                Console.Write("Skriv in ett ID: ");
+                string sökid = Console.ReadLine();
+                int.TryParse(sökid, out int id);
+                foreach (var item in Register)
+                {
+                    if (item.Id == id)
+                    {
+                        Console.WriteLine(item.Enhetsnamn);
+                        return item;
+                    }
+                }
+                return null;
 
             }
 
