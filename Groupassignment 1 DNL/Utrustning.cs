@@ -17,9 +17,10 @@ namespace Groupassignment_1_DNL
 
         public Utrustning(int ID, string enhet)
         {
+            Id = ID;
 
-            enhet = Enhetsnamn;
-            ID = Id;
+            Enhetsnamn = enhet;
+            
             Arutlanad = false;
 
         }
